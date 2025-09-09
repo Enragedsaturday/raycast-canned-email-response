@@ -148,6 +148,9 @@ Tip: You can also set a global hotkey for the command in Raycast → Settings �
 ## 💬 Feedback
 If you have suggestions or run into issues, please open an issue on the GitHub repository or share feedback via the Raycast Store page.
 
+- Source code: https://github.com/Enragedsaturday/raycast-canned-email-response
+- Issues: https://github.com/Enragedsaturday/raycast-canned-email-response/issues
+
 
 ## 📄 License
 MIT

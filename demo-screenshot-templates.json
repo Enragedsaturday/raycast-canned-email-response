@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Out of Office — Today",
+    "body": "Hi there,\n\nI’m out of the office today and will reply when I’m back tomorrow. For anything urgent, please email support@example.com.\n\nBest regards,\nYour Name"
+  },
+  {
+    "title": "Out of Office — Vacation",
+    "body": "Hello,\n\nThanks for your message. I’m on leave until Monday and will respond after I return. For immediate assistance, contact our team at team@example.com.\n\nThanks,\nYour Name"
+  },
+  {
+    "title": "Thanks for Reaching Out",
+    "body": "Hi,\n\nThanks for reaching out! I appreciate the details you shared. I’ll review and follow up with next steps shortly.\n\nBest,\nYour Name"
+  },
+  {
+    "title": "Meeting Follow-up",
+    "body": "Hi,\n\nGreat speaking earlier. A quick recap:\n• Goals discussed\n• Decisions made\n• Next steps and owners\n\nI’ll share an update once the next step is complete.\n\nRegards,\nYour Name"
+  },
+  {
+    "title": "Schedule a Call",
+    "body": "Hi,\n\nHappy to connect. I’m available this week on Tue–Thu between 10:00–14:00. If those don’t work, please suggest a couple of times that do.\n\nCheers,\nYour Name"
+  },
+  {
+    "title": "Running Late",
+    "body": "Hi,\n\nI’m running a few minutes behind and will join shortly. Thanks for your patience.\n\n— Your Name"
+  },
+  {
+    "title": "Reschedule Request",
+    "body": "Hi,\n\nSomething urgent came up on my end. Could we move our meeting to later today or tomorrow? Please share a couple of times that work for you.\n\nThanks,\nYour Name"
+  },
+  {
+    "title": "Handoff to Teammate",
+    "body": "Hi,\n\nLooping in my teammate who’s best suited to help from here. They have full context and will follow up shortly.\n\nAppreciate your time,\nYour Name"
+  },
+  {
+    "title": "Bug Report Acknowledgement",
+    "body": "Hi,\n\nThanks for the report. We’re able to reproduce the issue and are investigating. I’ll update you as soon as we have a fix or a workaround.\n\nBest,\nYour Name"
+  },
+  {
+    "title": "Feature Request Received",
+    "body": "Hi,\n\nThanks for the suggestion—it’s super helpful. I’ve shared it with the team for review and we’ll keep you posted on any progress.\n\nRegards,\nYour Name"
+  }
+]

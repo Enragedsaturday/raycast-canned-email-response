@@ -2,13 +2,22 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "canned-replies",
   "title": "Canned Replies",
-  "description": "Manage a list of canned email replies and quickly insert them in Apple Mail.",
+  "description": "Send email templates quickly in Apple Mail",
   "version": "1.0.0",
   "author": "enragedsaturday",
   "license": "MIT",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enragedsaturday/raycast-canned-email-response"
+  },
+  "homepage": "https://github.com/Enragedsaturday/raycast-canned-email-response",
+  "bugs": {
+    "url": "https://github.com/Enragedsaturday/raycast-canned-email-response/issues"
+  },
   "categories": [
     "Productivity",
+    "Communication",
     "Applications"
   ],
   "platforms": [

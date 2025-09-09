@@ -4,18 +4,18 @@ A Raycast extension that lets you save reusable email replies and insert them at
 
 
 ## 🗂️ Directory
-- [Install](#install)
-- [Using The Extension](#using-the-extension)
-- [Demo & Screenshots](#demo--screenshots)
-- [Import & Export](#import--export)
-- [Examples](#examples)
-- [Apple Mail Insertion](#apple-mail-insertion)
-- [Privacy & Storage](#privacy--storage)
-- [Shortcuts](#shortcuts)
-- [Troubleshooting](#troubleshooting)
-- [Known Limitations](#known-limitations)
-- [Feedback](#feedback)
-- [License](#license)
+- [Install](#-install)
+- [Using The Extension](#-using-the-extension)
+- [Demo & Screenshots](#-demo--screenshots)
+- [Import & Export](#-import--export)
+- [Examples](#-examples)
+- [Apple Mail Insertion](#-apple-mail-insertion)
+- [Privacy & Storage](#-privacy--storage)
+- [Shortcuts](#-shortcuts)
+- [Troubleshooting](#-troubleshooting)
+- [Known Limitations](#-known-limitations)
+- [Feedback](#-feedback)
+- [License](#-license)
 
 
 ## 🚀 Install

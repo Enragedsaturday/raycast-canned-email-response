@@ -34,7 +34,7 @@
     {
       "name": "index",
       "title": "Canned Replies",
-      "subtitle": "Apple Mail",
+      "subtitle": "Canned Replies for Apple Mail",
       "description": "Search and insert saved email replies",
       "mode": "view"
     }

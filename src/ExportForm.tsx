@@ -58,6 +58,11 @@ export default function ExportForm() {
       actions={
         <ActionPanel>
           <Action.SubmitForm title="Export to JSON" onSubmit={handleExport} />
+          <Action.OpenInBrowser
+            title="Open Documentation"
+            icon={Icon.Globe}
+            url="https://github.com/Enragedsaturday/raycast-canned-email-response#readme"
+          />
         </ActionPanel>
       }
     >

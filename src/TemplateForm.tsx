@@ -81,6 +81,11 @@ export default function TemplateForm(props: TemplateFormProps) {
             title={isEdit ? "Save Changes" : "Save Template"}
             onSubmit={handleSubmit}
           />
+          <Action.OpenInBrowser
+            title="Open Documentation"
+            icon={Icon.Globe}
+            url="https://github.com/Enragedsaturday/raycast-canned-email-response#readme"
+          />
         </ActionPanel>
       }
     >

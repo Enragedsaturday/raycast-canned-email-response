@@ -147,6 +147,11 @@ export default function Command() {
                     icon={Icon.Upload}
                     target={<ExportForm />}
                   />
+                  <Action.OpenInBrowser
+                    title="Open Documentation"
+                    icon={Icon.Globe}
+                    url="https://github.com/Enragedsaturday/raycast-canned-email-response#readme"
+                  />
                 </ActionPanel.Section>
               </ActionPanel>
             }
@@ -169,6 +174,11 @@ export default function Command() {
                 title="Import from JSON"
                 icon={Icon.Download}
                 target={<ImportForm />}
+              />
+              <Action.OpenInBrowser
+                title="Open Documentation"
+                icon={Icon.Globe}
+                url="https://github.com/Enragedsaturday/raycast-canned-email-response#readme"
               />
             </ActionPanel>
           }

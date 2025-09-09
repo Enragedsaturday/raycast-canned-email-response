@@ -91,6 +91,11 @@ export default function ImportForm() {
       actions={
         <ActionPanel>
           <Action.SubmitForm title="Import from JSON" onSubmit={handleImport} />
+          <Action.OpenInBrowser
+            title="Open Documentation"
+            icon={Icon.Globe}
+            url="https://github.com/Enragedsaturday/raycast-canned-email-response#readme"
+          />
         </ActionPanel>
       }
     >

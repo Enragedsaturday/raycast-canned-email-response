@@ -7,6 +7,7 @@ import {
   confirmAlert,
   Alert,
   popToRoot,
+  Icon,
 } from "@raycast/api";
 import { useLocalStorage } from "@raycast/utils";
 import { promises as fs } from "fs";

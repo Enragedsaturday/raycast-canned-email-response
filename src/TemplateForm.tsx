@@ -5,6 +5,7 @@ import {
   popToRoot,
   showToast,
   Toast,
+  Icon,
 } from "@raycast/api";
 import { useLocalStorage } from "@raycast/utils";
 import { useState } from "react";

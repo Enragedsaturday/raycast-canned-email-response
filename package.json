@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "canned-replies",
   "title": "Canned Replies",
   "description": "Manage a list of canned email replies and quickly insert them in Apple Mail.",
@@ -9,6 +10,14 @@
   "categories": [
     "Productivity",
     "Applications"
+  ],
+  "platforms": ["macOS"],
+  "keywords": [
+    "apple mail",
+    "email",
+    "templates",
+    "canned replies",
+    "canned responses"
   ],
   "commands": [
     {
@@ -33,6 +42,8 @@
     "dev": "npx ray develop",
     "build": "npx ray build",
     "lint": "npx ray lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "publish": "npx @raycast/api@latest publish",
+    "prepublishOnly": "echo '\nThis project is a Raycast extension, not an npm package. Use `npm run publish` to submit to the Raycast Store.\n' && exit 1"
   }
 }

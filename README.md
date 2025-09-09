@@ -99,20 +99,20 @@ Use these as a starting point to structure your own import files.
 
 ## ✉️ Apple Mail Insertion
 - What happens
-  - Raycast closes its window, activates Mail, jumps to the top of the draft (⌘↑), copies your template to the clipboard, pastes (⌘V), and optionally sends (⌘⇧D).
+  - Raycast closes its window, activates Mail, jumps to the top of the draft (⌘↑), pastes your template text without permanently changing your clipboard, and optionally sends (⌘⇧D).
 - Requirements
   - Apple Mail must have a compose/reply window open and focused.
   - macOS permissions: System Settings → Privacy & Security → Accessibility (allow Raycast), and Automation (allow Raycast to control Mail).
 - Notes
   - Each insert prepends text at the very top, above signatures and quoted text.
   - “Insert and Send” immediately sends the email; use carefully.
-  - Clipboard: your current clipboard contents are replaced during insertion.
+  - Clipboard: the extension uses paste in a way that restores your previous clipboard contents after insertion.
 
 
 ## 🔐 Privacy & Storage
 - All templates are stored locally via Raycast LocalStorage under the key `canned-replies`.
 - The extension makes no network requests.
-- The clipboard is used transiently to insert text into Mail.
+- The clipboard is used transiently to insert text into Mail, and your previous clipboard contents are restored after pasting.
 
 
 ## ⌨️ Shortcuts
@@ -141,8 +141,7 @@ Tip: You can also set a global hotkey for the command in Raycast → Settings �
 
 
 ## ⚠️ Known Limitations
-- Apple Mail only. Other mail apps aren’t supported.
-- Clipboard contents are overwritten during insertion and aren’t restored.
+- macOS and Apple Mail only. Other mail apps aren’t supported.
 - Import is replace-only (no merge). Duplicate detection is not performed.
 
 

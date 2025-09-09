@@ -8,6 +8,7 @@ import {
   showToast,
   Toast,
   closeMainWindow,
+  Clipboard,
 } from "@raycast/api";
 import { useLocalStorage, runAppleScript } from "@raycast/utils";
 import TemplateForm from "./TemplateForm";
@@ -45,20 +46,31 @@ export default function Command() {
   async function insertReply(bodyText: string, sendNow: boolean) {
     try {
       await closeMainWindow();
-      const script = `
-        on run {textToInsert, sendFlag}
+      // 1) Focus Mail and move cursor to top of the draft
+      const moveToTopScript = `
+        on run {}
           tell application "Mail" to activate
           tell application "System Events"
             key code 126 using {command down}
-            set the clipboard to textToInsert
-            keystroke "v" using {command down}
-            if sendFlag is "1" then
-              keystroke "d" using {command down, shift down}
-            end if
           end tell
         end run
       `;
-      await runAppleScript(script, [bodyText, sendNow ? "1" : "0"]);
+      await runAppleScript(moveToTopScript, []);
+
+      // 2) Paste without permanently altering the user's clipboard
+      await Clipboard.paste(bodyText);
+
+      // 3) Optionally send the email
+      if (sendNow) {
+        const sendScript = `
+          on run {}
+            tell application "System Events"
+              keystroke "d" using {command down, shift down}
+            end tell
+          end run
+        `;
+        await runAppleScript(sendScript, []);
+      }
       const successMessage = sendNow
         ? "Inserted and sent!"
         : "Inserted into draft";

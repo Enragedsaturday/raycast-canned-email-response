@@ -6,7 +6,6 @@ A Raycast extension that lets you save reusable email replies and insert them at
 ## 🗂️ Directory
 - [Install](#-install)
 - [Using The Extension](#-using-the-extension)
-- [Demo & Screenshots](#-demo--screenshots)
 - [Import & Export](#-import--export)
 - [Examples](#-examples)
 - [Apple Mail Insertion](#-apple-mail-insertion)
@@ -41,15 +40,6 @@ General actions
 - Import from JSON: Replace your current templates with a JSON file.
 - Export to JSON: Save your current templates to a JSON file.
 
-
-## 🎬 Demo & Screenshots
-- Demo GIF: ![Demo](assets/demo.gif)
-- List view: ![List View](assets/screenshot-list.png)
-- Action Panel: ![Action Panel](assets/screenshot-actions.png)
-
-Tip: If an image doesn’t appear on GitHub, ensure the referenced file exists under `assets/`.
-
-
 ## 📥📤 Import & Export
 Export
 - Action: “Export to JSON”.
@@ -79,7 +69,7 @@ Minimal example
 ]
 ```
 
-Full example
+Full example (ID createdAt and updatedAt are not required, but will be set upon import if missing)
 ```
 [
   {

@@ -1,0 +1,38 @@
+{
+  "name": "canned-replies",
+  "title": "Canned Replies",
+  "description": "Manage a list of canned email replies and quickly insert them in Apple Mail.",
+  "version": "1.0.0",
+  "author": "enragedsaturday",
+  "license": "MIT",
+  "icon": "icon.png",
+  "categories": [
+    "Productivity",
+    "Applications"
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Canned Replies",
+      "description": "Search and insert saved email replies",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.102.0",
+    "@raycast/utils": "^2.2.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "^18.0.0",
+    "@types/react": "^17.0.0",
+    "eslint": "^8.57.1",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "dev": "npx ray develop",
+    "build": "npx ray build",
+    "lint": "npx ray lint",
+    "type-check": "tsc --noEmit"
+  }
+}

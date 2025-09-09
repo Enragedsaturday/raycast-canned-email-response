@@ -3,6 +3,21 @@
 A Raycast extension that lets you save reusable email replies and insert them at the top of an Apple Mail compose/reply window in a flash. Create, edit, duplicate, delete, import/export, then insert — optionally sending immediately.
 
 
+## 🗂️ Directory
+- [Install](#install)
+- [Using The Extension](#using-the-extension)
+- [Demo & Screenshots](#demo--screenshots)
+- [Import & Export](#import--export)
+- [Examples](#examples)
+- [Apple Mail Insertion](#apple-mail-insertion)
+- [Privacy & Storage](#privacy--storage)
+- [Shortcuts](#shortcuts)
+- [Troubleshooting](#troubleshooting)
+- [Known Limitations](#known-limitations)
+- [Feedback](#feedback)
+- [License](#license)
+
+
 ## 🚀 Install
 - From Raycast: Open Raycast → Store → search for “Canned Replies for Apple Mail” → Install.
 - First launch: Raycast may prompt for permissions (Accessibility / Automation) so it can control Mail for the insert actions.
